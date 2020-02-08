@@ -17,6 +17,9 @@ var config = {
     filename: '[name].js',
     chunkFilename: '[id].js'
   },
+  externals: {
+    jquery: 'jQuery'
+  },
   jshint: {
     esversion: 5,
     camelcase: true,
